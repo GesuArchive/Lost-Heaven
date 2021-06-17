@@ -1,0 +1,227 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "D:/Program Files/J.A.C.K/halflife/hlcsg.exe" "D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\maps\gesu1" 
+Arguments: "D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\maps\gesu1" -low -wadautodetect 
+Entering D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\maps\gesu1.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.00 seconds)
+CSGBrush:
+ (0.00 seconds)
+
+Including Wadfile: \Program Files\Valve Hammer Editor\zhlt.wad
+ - Contains 1 used texture, 50.00 percent of map (22 textures in wad)
+Using Wadfile: \Users\gesu\Documents\Projects\Lost Heaven\heaven\Heaven.wad
+ - Contains 1 used texture, 50.00 percent of map (15 textures in wad)
+
+Wad files required to run the map: "Heaven.wad;"
+Texture usage is at 0.04 mb (of 32.00 mb MAX)
+0.02 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "D:/Program Files/J.A.C.K/halflife/hlbsp.exe" "D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\maps\gesu1" 
+Arguments: "D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\maps\gesu1" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 17 (0.00 seconds)
+BSP generation successful, writing portal file 'D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\maps\gesu1.prt'
+SolidBSP [hull 1] 13 (0.00 seconds)
+SolidBSP [hull 2] 13 (0.00 seconds)
+SolidBSP [hull 3] 13 (0.00 seconds)
+Reduced 18 clipnodes to 18
+Reduced 14 texinfos to 6
+Reduced 2 texdatas to 2 (22624 bytes to 22624)
+Reduced 108 planes to 25
+FixBrinks:
+Increased 18 clipnodes to 18.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              1/512           64/32768    ( 0.2%)
+planes             25/32768        500/655360   ( 0.1%)
+vertexes          232/65535       2784/786420   ( 0.4%)
+nodes              11/32767        264/786408   ( 0.0%)
+texinfos            6/32767        240/1310680  ( 0.0%)
+faces             198/65535       3960/1310700  ( 0.3%)
+* worldfaces      198/32768          0/0        ( 0.6%)
+clipnodes          18/32767        144/262136   ( 0.1%)
+leaves              3/32760         84/917280   ( 0.0%)
+* worldleaves       2/8192           0/0        ( 0.0%)
+marksurfaces      198/65535        396/131070   ( 0.3%)
+surfedges         884/512000      3536/2048000  ( 0.2%)
+edges             463/256000      1852/1024000  ( 0.2%)
+texdata          [variable]      22624/33554432 ( 0.1%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       1015/2097152  ( 0.0%)
+* AllocBlock        3/64             0/0        ( 4.7%)
+2 textures referenced
+=== Total BSP file data space used: 37463 bytes ===
+Wad files required to run the map: "Heaven.wad;"
+0.02 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "D:/Program Files/J.A.C.K/halflife/hlvis.exe" "D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\maps\gesu1" 
+Arguments: "D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\maps\gesu1" -low 
+   2 portalleafs
+   0 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.00 seconds)
+LeafThread:
+ (0.00 seconds)
+average leafs visible: 1
+g_visdatasize:2  compressed from 2
+0.00 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+
+P2:Savior tools v.0.96 beta (Sep 26 2018)
+
+Current p2rad settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+developer             [       2 ] [       2 ]
+fast rad              [     off ] [     off ]
+extra rad             [     off ] [     off ]
+bounces               [       3 ] [       3 ]
+smoothing threshold   [  50.000 ] [  50.000 ]
+blur size             [   1.000 ] [   1.000 ]
+direct light scale    [   2.000 ] [   2.000 ]
+global light scale    [   1.000 ] [   1.000 ]
+gamma factor          [   0.500 ] [   0.500 ]
+chop value            [ 128.000 ] [ 128.000 ]
+texchop value         [  32.000 ] [  32.000 ]
+global sky diffusion  [   1.000 ] [   1.000 ]
+dirtmapping           [     off ] [     off ]
+
+rootdir D:\Users\gesu\Documents\Projects\Lost Heaven
+
+[Reading texlights from 'D:\Users\gesu\Documents\Projects\Lost Heaven\heaven\devkit\tools\lights.rad']
+756 base patches, required 197.86 Kb
+2 direct lights
+FindFacePositions:  
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.01 secs)
+position maps: 967.07 Kb
+BuildFaceLights:    
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.27 secs)
+total facelight data: 2.60 Mb
+MakeTransfers:      
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.03 secs)
+transfer lists: 825.19 Kb
+BounceLight 1:
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.00 secs)
+BounceLight 2:
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.00 secs)
+BounceLight 3:
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.00 secs)
+FacePatchLights:    
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.01 secs)
+FinalLightFace:     
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.00 secs)
+LeafAmbientLighting:
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100% (0.00 secs)
+0 seconds elapsed
