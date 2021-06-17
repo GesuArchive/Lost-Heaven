@@ -1,0 +1,1 @@
+start xash.exe -dev -game heaven
